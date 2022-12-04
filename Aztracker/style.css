@@ -1,0 +1,174 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Lobster&family=Press+Start+2P&family=Russo+One&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Roboto', cursive;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: #ffffff;
+    color: #000;
+}
+
+/*  шапка  */
+header {
+    background-color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.headerInner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 15%;
+    height: auto;
+}
+
+nav {
+    font-family: 'arial', cursive;
+    width: 50%;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', cursive;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+/*  main  */
+.banner {
+    width: 100%;
+    background: url(aaa.png);
+    background-size: cover;
+    padding-top: 40vh;
+    padding-left: 30px;
+    padding-bottom: 10vh;
+    color: rgb(255, 255, 255);
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.pBanner {
+    margin-top: 10px;
+    margin-bottom: 60px;
+    font-family: 'Arial', Arial;
+}
+
+
+
+.move {
+    width: 100 wv;
+    height: 70vh;
+    background-color: white;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.movie {
+    width: 100%;
+    height: 100vh;
+    background: url(images/BG2.jpeg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*  подвал  */
+
+
+.footerInner {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #000;
+}
+
+.darkTheme {
+    background-color: #121212;
+    color: #fff;
+   }.darkTheme header{
+    background-color: #1f1f1f;
+    color: white;
+   }
+   .darkTheme a{
+    color: #00a3e8;
+   }.darkTheme .logo{
+    color: #00a3e8;
+   }
+   
+   .darkTheme input{
+    background-color: #00a3e8;
+    color: #121212;
+   }.darkTheme h1{
+    color: #fff;
+   }.darkTheme .line{
+    background-color: #00a3e8;
+   }
+   .darkTheme footer{
+    background-color: #383838;
+    color: white;
+   }
+
+   h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.pBanner {
+    margin-top: 10px;
+    margin-bottom: 60px;
+    font-family: 'Arial', Arial;
+}
+
+.link {
+    display: inline-block;
+    background-color: #2596be;
+    padding: 20px 40px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.link:hover {
+    color: rgb(188, 188, 188);
+    text-decoration: none;
+}
+
+
+footer {
+    background-color: rgb(164, 164, 164);
+    font-family: 'Russo One', sans-serif;
+}
